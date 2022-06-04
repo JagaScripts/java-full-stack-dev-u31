@@ -1,0 +1,39 @@
+#contenedor{
+    width: 50vh;
+    height: 57.5vh;
+    border: 6px groove cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: khaki;
+}
+
+h1{
+    text-align: center;
+}
+
+#resultado{
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    border: 4px solid black;
+    margin: 4% 2% 2% 4%;
+}
+
+button{
+    width: 7.5vh;
+    height: 7.5vh;
+    margin: 2% 2% 2% 2%;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+#c{
+    color: red;
+    float: right;
+    margin-right: 3.5%;
+}
+
+.bloque_botones{
+    width: 100%;
+    display: inline-block;
+}
