@@ -13,6 +13,7 @@ for (let index = 0; index < 50; index++) {
 }
 document.body.innerHTML += "<p>Se ha ejecutado " + array.length + " veces</p>";
 console.log(array.length);
+console.log(array);
 
 
 function obtenerRandom(min, max) {
