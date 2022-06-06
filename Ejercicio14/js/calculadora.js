@@ -4,6 +4,7 @@ var p = document.getElementsByTagName("p")[0];
 input.disabled = true;
 var masMenos = true;
 var inverso = false;
+p.innerHTML = `Puedes usar el tecaldo mumérico`;
 
 for (const params of botones) {
     params.addEventListener("click", function(){operacion(params)});

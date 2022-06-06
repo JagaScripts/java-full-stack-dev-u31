@@ -1,21 +1,24 @@
 #contenedor-imagenes{
-    width: 880px;
-    height: 110px;
+    height: 100vh;
+    width: 12vh;
+    float: left;
     border: 3px solid lightgrey;
-    display: flex;
     margin: auto;
 }
 
 #contenedor-imagen{
     margin: auto;
+    height: 90vh;
+    width: 20vh;
     float: center;
+    margin-right: 1%;
     justify-content: center;
 }
 
 img {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+    width: 10vh;
+    height: 10vh;
+    margin: 10px;
 }
 
 h1{
@@ -23,13 +26,31 @@ h1{
 }
 
 #imagenCentral{
-    margin-top: 50px;
-    width:600px;
-    height: 400px;
+    margin-top: 5vh;
+    width: 120vh;
+    height: 90vh;
 }
 
 #textotImagen{
-    margin-top: 470px;
+    margin-top: 3px;
+    margin-left: 622px;
     text-align: center;
     position: absolute;
+}
+
+.derecha{
+    border: 1px solid;
+    height: 90vh;
+    width: 160vh;
+    float: left;
+
+}
+
+
+.izquierda{
+    border: 1px solid;
+    height: 90vh;
+    width: 20vh;
+    float: left;
+    margin-right: 1%;
 }

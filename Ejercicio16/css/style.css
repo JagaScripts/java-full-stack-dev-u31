@@ -1,12 +1,14 @@
-.container-principal{
+.contenedor{
     border: 4px solid lightcoral;
-    height: 50px;
-    width: 150px;
+    height: 10vh;
+    width: 100vh;
     background-color: lightskyblue;
-    margin:auto;
     display: flex;
     justify-content: center;
-    transform: translate(0%,500%);
+    border-radius: 10px;
+    transform: translate(50%,100%);
+    font-size: xxx-large;
+    padding-bottom: 7vh;
 }
 
 h1{
